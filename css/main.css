@@ -238,6 +238,15 @@ body {
   flex-wrap: wrap;
 }
 
+.pancake_menu_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* 横方向に幅を100%に設定 */
+  height: auto; /* 高さは自動調整（縦横比を変えない） */
+}
+
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
